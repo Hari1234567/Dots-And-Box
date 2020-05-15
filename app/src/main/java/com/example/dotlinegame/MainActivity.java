@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         }
+        
         Button undoButton=(Button)findViewById(R.id.undoBut);
         undoButton.setOnClickListener(new View.OnClickListener() {
             @Override

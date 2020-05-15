@@ -12,6 +12,7 @@ import android.widget.Button;
 public class MainMenu extends AppCompatActivity {
 boolean flag,AIflag;
 public static boolean AIMode=false;
+
     @Override
     public void onBackPressed() {
 
@@ -35,6 +36,7 @@ public static boolean AIMode=false;
         flag=false;
         setContentView(R.layout.activity_main_menu);
         Button humanBut=(Button)findViewById(R.id.humanPlay);
+
         humanBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
